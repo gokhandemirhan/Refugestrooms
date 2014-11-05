@@ -27,6 +27,7 @@
 		F313113F1A09539300BC2DA8 /* RestroomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F313113D1A09539300BC2DA8 /* RestroomTableViewCell.xib */; };
 		F31311431A095FC700BC2DA8 /* RestroomDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F31311411A095FC700BC2DA8 /* RestroomDetailViewController.m */; };
 		F31311441A095FC700BC2DA8 /* RestroomDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F31311421A095FC700BC2DA8 /* RestroomDetailViewController.xib */; };
+		F319C2341A0AB416001F685F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F319C2321A0AB1A9001F685F /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		F31311401A095FC700BC2DA8 /* RestroomDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestroomDetailViewController.h; sourceTree = "<group>"; };
 		F31311411A095FC700BC2DA8 /* RestroomDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestroomDetailViewController.m; sourceTree = "<group>"; };
 		F31311421A095FC700BC2DA8 /* RestroomDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RestroomDetailViewController.xib; sourceTree = "<group>"; };
+		F319C2321A0AB1A9001F685F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F319C2341A0AB416001F685F /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +104,7 @@
 		F31310E61A093C9600BC2DA8 = {
 			isa = PBXGroup;
 			children = (
+				F319C2321A0AB1A9001F685F /* MapKit.framework */,
 				F31310F11A093C9600BC2DA8 /* Refugestrooms */,
 				F313110B1A093C9600BC2DA8 /* RefugestroomsTests */,
 				F31310F01A093C9600BC2DA8 /* Products */,
@@ -498,6 +502,7 @@
 				F31311141A093C9600BC2DA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F31311151A093C9600BC2DA8 /* Build configuration list for PBXNativeTarget "RefugestroomsTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +511,7 @@
 				F31311171A093C9600BC2DA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
